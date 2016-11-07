@@ -30,4 +30,18 @@
           </plugin>
       </plugins>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>internalReleases</id>
+      <name>Release Repository</name>
+      <url>http://nexus.ci.svc.cluster.local:8081/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>internalSnapshots</id>
+      <name>Snapshot Repository</name>
+      <url>http://nexus.ci.svc.cluster.local:8081/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
