@@ -143,20 +143,6 @@
                 }
             },
             "status": {}
-        },
-        {
-            "kind": "Route",
-            "apiVersion": "v1",
-            "metadata": {
-                "name": "os-sample-java-web",
-                "creationTimestamp": null,
-                "labels": {
-                    "app": "os-sample-java-web"
-                },
-                "annotations": {
-                    "openshift.io/generated-by": "OpenShiftNewApp"
-                }
-            },
- 
+        }
     ]
 }
