@@ -1,7 +1,7 @@
 #!/usr/bin/groovy
 //def artifactUrl = "http://10.1.2.1:8081/nexus/content/repositories/snapshots/openshift/getting-started-tomcat/1.0-SNAPSHOT/getting-started-tomcat-1.0-20161026.133132-1.war"
 
-node('fabric8') {
+node('maven') {
   def imageStreamName = 'os-sample-java-web'
   def buildNamespace = 'build'
   def devReleaseTag = 'dev-release'
